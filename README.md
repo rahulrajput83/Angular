@@ -56,14 +56,10 @@ export class MyComponent {}
 *Data binding is a technique used to connect a component’s data with the view or template.*
 
 **Angular provides four types of data binding:**
-##### Interpolation:
-*{{ expression }} to bind data from the component to HTML (template).*
-##### Property Binding: 
-*[property]="expression" to bind data from component to a HTML element*
-##### Event Binding:
-*(event)="handler" to bind an event to a method in the component.*
-##### Two-way Binding:
-*[(ngModel)]="property" to bind data between the view and the component.*
+- ***Interpolation:*** *{{ expression }} to bind data from the component to HTML (template).*
+- ***Property Binding:*** *[property]="expression" to bind data from component to a HTML element*
+- ***Event Binding:*** *(event)="handler" to bind an event to a method in the component.*
+- ***Two-way Binding:*** *[(ngModel)]="property" to bind data between the view and the component.*
 
 ### Modules
 #### What are Modules?
